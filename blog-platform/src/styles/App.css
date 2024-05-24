@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+.App {
+	text-align: center;
+}
+
+.navbar {
+	background-color: #4CAF50;
+	color: white;
+	padding: 1rem;
+}
+
+.navbar-logo {
+	color: white;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+.navbar-links a {
+	color: white;
+	text-decoration: none;
+	margin: 0 1rem;
+}
+
+.navbar-links a:hover {
+	text-decoration: underline;
+}
