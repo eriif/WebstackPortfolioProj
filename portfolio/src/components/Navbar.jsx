@@ -22,9 +22,13 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             <li className="cursor-pointer hover:text-blue-500">
               <a href="#about">About</a>
             </li>
+	  {/*
             <li className="cursor-pointer hover:text-blue-500">
               <a href="#projects">Projects</a>
-            </li>
+	     </li>*/}
+	  <li className="cursor-pointer hover:text-blue-500">
+	                <a href="#contacts">Contacts</a>
+	  </li>
           </ul>
           <button onClick={toggleTheme} className="p-2">
             {darkMode ? (

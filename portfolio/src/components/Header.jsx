@@ -32,12 +32,14 @@ const Header = () => {
         </h1>
         <p className="tex-md text-black dark:text-gray-100 mt-5 2xl:mt-10">
           Fullstack software Developer with ability to learn and collaborate in
-          rapidly changing environments. A degree holder in mathematics (pure and applied), highly skilled in Excel, Matlab, python, e.t.c
+          rapidly changing environments. A degree holder in B.Sc Industrial mathematics. I'm highly skilled in Excel, Matlab, python,MS word, e.t.c.
         </p>
         <div className="mt-10 flex gap-10">
-	   <button className="bg-orange-700 text-lg text-white font-bold rounded-md py-3 px-5">
-            Contact Me
+	  <a href="#contacts">
+	  <button className="bg-orange-700 text-lg text-white font-bold rounded-md py-3 px-5">
+           Contact Me
           </button>
+	  </a>
 	  <a href="#skills">
             <button className="text-lg text-white font-semibold rounded-md py-3 px-5 bg-black dark:bg-[#224cff10]">
               Skills
@@ -50,10 +52,10 @@ const Header = () => {
         <img
           src={Profile}
           alt="profile"
-          className="w-[250px] h-[250px] absolute top-5 md:top-10 object-cover animate-pulse rounded-full"
+          className="w-[250px] h-[250px] absolute top-2 md:top-8 object-cover animate-pulse rounded-full"
           data-aos="fade-down"
           data-aos-offset="100"
-          data-aos-delay="50"
+          data-aos-delay="100"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
         />
@@ -68,22 +70,22 @@ const Header = () => {
           <img
             src={Reactjs}
             alt="recatjs"
-            className="absolute top-7 md:top-10 left-4 md:left-0 2xl:left-8 w-12 h-12 md:w-20 md:h-20"
+            className="absolute top-7 md:top-10 left-4 md:left-0 2xl:left-8 w-8 h-8 md:w-15 md:h-15"
           />
           <img
             src={Redux}
             alt="recatjs"
-            className="absolute bottom-7 md:bottom-10 left-3 md:left-0 2xl:left-12 w-12 h-12 md:w-20 md:h-20"
+            className="absolute bottom-7 md:bottom-10 left-3 md:left-0 2xl:left-8 w-8 h-12 md:w-15 md:h-15"
           />
           <img
             src={Mongodb}
             alt="recatjs"
-            className="absolute top-3 md:top-10 right-0  2xl:right-8 w-16 h-16 md:w-20 md:h-20"
+            className="absolute top-3 md:top-5 right-2  2xl:right-5 w-14 h-14 md:w-15 md:h-15"
           />
           <img
             src={Nodejs}
             alt="recatjs"
-            className="absolute bottom-7 md:bottom-10 right-3  2xl:right-12 w-12 h-12 md:w-20 md:h-20"
+ i           className="absolute bottom-7 md:bottom-10 right-3  2xl:right-9 w-9 h-12 md:w-15 md:h-15"
           />
         </div>
       </div>

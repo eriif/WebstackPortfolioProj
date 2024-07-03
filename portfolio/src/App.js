@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-// import Projects from "./components/Projects";
+
 import About from "./components/About";
 import Skills from "./components/Skills";
-// import Works from "./components/Works";
+import Contacts from "./components/Contacts";
 import Footer from "./Footer";
 
 import AOS from "aos";
@@ -24,7 +24,7 @@ function App() {
     setDarkMode((prev) => !prev);
   };
 
-  return (
+return (
     <div
       className={`w-full h-full min-h-[100vh] bg-white ${darkMode && "dark"}`}
     >
@@ -56,7 +56,14 @@ function App() {
           <Skills />
         </section>
 
-	  {/*        <section
+        <section
+	  id="contacts"
+	    className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 half-white"
+	    >
+	      <Contacts className="half-white-text" />
+	      </section>
+	      
+	      {/*        <section
 	  id="projects"
 	  className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
         >
