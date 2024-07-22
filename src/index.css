@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.half-white {
+     	background: linear-gradient(to right, white 50%, #05174e 50%);
+	color: blue;
+    }
+
+.half-white-text {
+  	color: blue;
+}
